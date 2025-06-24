@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    container_name: watermark
+    expose: [ "8886" ]
+    networks:
+      - common_backend
+
+networks:
+  common_backend:
+    external: true

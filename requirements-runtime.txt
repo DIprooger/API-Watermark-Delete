@@ -1,0 +1,13 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+pydantic==2.11.3
+numpy==2.2.4
+opencv-python-headless==4.11.0.86
+torch==2.6.0          # ← без «+cpu»
+torchvision==0.21.0   # ← без «+cpu»
+timm==0.9.2
+pillow==11.1.0
+segmentation-models-pytorch @ \
+  git+https://github.com/qubvel-org/segmentation_models.pytorch@aa7f35aa17750b2cef017b12d38520f3df066dd7
